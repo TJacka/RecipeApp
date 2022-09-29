@@ -116,26 +116,6 @@ header h5 {
     margin-bottom: -3px;
 }
 
-.logo {
-    text-decoration: none;
-    color: white;
-}
-
-.logo h3 {
-    font-family: Georgia, Times, 'Times New Roman', serif;
-}
-
-.logo h5 {
-    font-weight: 800;
-}
-
-.logo:hover,
-.logo:active {
-    color:rgb(255, 221, 0);
-    cursor: pointer;
-    text-shadow: 0 0 2px rgb(0, 0, 0);
-}
-
 .chef {
     margin-left: 15%;
     margin-top: 15px;
