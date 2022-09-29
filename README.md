@@ -8,7 +8,7 @@
 
 <br>
 
-<img src="https://i.ibb.co/d7KqJPZ/Recipe-App-UI.jpg" border="0">
+<img src="https://i.ibb.co/d7KqJPZ/Recipe-App-UI.jpg">
 
 <br>
 
