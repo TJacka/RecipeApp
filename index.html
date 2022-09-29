@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe Hub</title>
+</head>
+<body>
+    <header>
+        <div class="header--search">
+            <div class="header--logo" title="Home">
+                <a class="logo" href="index.html"><img src="logo.png" width="75px" alt=""></a>
+            </div>
+            <form class="form">
+                <input id="recipe--search" name="recipe--search" placeholder="Search by ingredient or description" type="text" autocomplete="off">
+                <button id="submit" name="submit" type="submit">Find Recipes!</button>
+            </form>
+            <nav class="header--navbar">
+                <!-- <ul>
+                    <li ><a href="index.html" class="home--btn">Home Search</a></li>
+                    <li><a href="" class="user--recipes--btn" title="Coming Soon!">My Recipes</a></li>
+                </ul> -->
+            </nav>
+        </div>
+        <form class="form--mobile">
+            <input id="recipe--search" name="recipe--search" placeholder="Search by ingredient or dish" type="text" autocomplete="off">
+            <button id="submit" class="subbtn" name="submit" type="submit">Search!</button>
+        </form>
+    </header>
+    <section>
+        <aside class="aside--results">
+            <div id="aside--home"></div>
+            <div id="search--results"></div>
+        </aside>
+        <main class="main--intro">
+            <h1>Recipe Hub</h1>
+            <h2 class="subhead">Find & Store All Your Favorite Recipes In One Place</h2>
+            <h3 class="intro--description">Too many recipe books? Recipes with hardly any reviews, or at least ones that seem trustworthy?</h3>
+            <h3 class="intro--description">Use this web app to find, store, enter, and rate your favorite web recipes.</h3>
+        </main>
+        <main class="main--choose">
+            <h2>Choose a recipe from the list for more details</h2>
+            <h3>Head over to My Recipes and sign up to save your favorite recipes for later!</h3>
+            <p class="choose--quote">"Food is the highest form of life and art - a combination of exquisite heavenly indulgence and medicinal survival".</p>
+        </main>
+        <main class="main--result">
+            <div class="main--recipe--title">
+                <h2 class="main--title" id="main--title"></h2>
+            </div>
+            <div class="recipe--overview">
+                <div class="recipe--main">
+                    <img id="recipe--image--main" class="recipe--image--main">
+                </div>
+                <div class="recipe--overview--details">
+                    <div class="recipe--info">
+                        <h3>Ingredients</h3>
+                        <ul class="ingredient--list" id="ingredient--list"></ul>
+                        <ul></ul>
+                        <ul></ul>
+                    </div>
+                    <div class="source--link">
+                        <h4 class="recipe--link">Recipe link: </h4>
+                        <div class="btn--source"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <main class="contact">
+            <div class="contact--page">
+                <h2>Concerns or feedback? <br>Let us know.</h2>
+                <form action="submit" class="contact--form">
+                    <div class="form--name--email">
+                        <input class="form--name" type="text" placeholder="Name">
+                        <input class="form--email" type="email" placeholder="E-mail Address">
+                    </div>
+                    <input class="form--subject" type="text" placeholder="Subject">
+                    <textarea class="form--text" name="" id="" cols="30" rows="5" placeholder="Please enter your query"></textarea>
+                    <button class="form--submit--btn">Submit</button>
+                </form>
+            </div>
+        </main>
+    </section>
+    <footer>
+        <a href="https://tjacka.github.io/portfolio/">Site by Thomas Jacka</a>
+        <small>Recipes from Edamam.com recipe API</small>
+        <ul>
+            <li class="contact--btn">Contact/Feedback</li>
+        </ul>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
