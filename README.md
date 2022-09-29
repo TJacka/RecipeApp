@@ -22,12 +22,12 @@ Html, CSS, Javascript, Edamam.com Recipe API
 
 Search recipes by ingredient or key words, contact page, recipe info page
 
-Responsive design
-  
 <br>
   
 ## Future Optimizations:
   
 Implement back-end data and functionality including sign-in, recipe storage, recipe uploads, and recipe ratings
+  
+Optimize for mobile media queries
   
 </div>
